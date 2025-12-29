@@ -1,0 +1,37 @@
+Project Overview
+
+This codebase contains the automated report generation workflows for the Toronto Humane Society, led by Dr. Linda Jacobson. It is designed to streamline the process of creating various operational and medical reports, helping staff monitor and manage the health and welfare of animals under care.
+
+Contributors
+
+The project has been developed and maintained by:
+
+Jade Kyrsten
+
+Xavier Boakye
+
+Available Reports
+
+The system currently supports the following reports, each of which can be generated for a specified period:
+
+run_diarrhea_report(report_year) – Tracks diarrhea-related cases and trends for the given year.
+
+run_kitten_report(report_year) – Generates reports focused on kittens, including intake, health, and outcomes.
+
+run_parvo_report(report_year) – Summarizes parvovirus cases and treatments annually.
+
+run_dental_report(report_year) – Provides insights into dental procedures and oral health trends.
+
+run_incidence_report(report_year) – Records and summarizes general incidence reports throughout the year.
+
+run_ringworm_report(report_year) – Tracks ringworm cases and their management over the year.
+
+run_uri_report(report_year) – Focuses on upper respiratory infections among the animal population.
+
+run_los_report(report_year) – Reports on length of stay statistics for animals at the shelter.
+
+run_sx_wait_time_report(report_year) – Tracks surgical wait times to optimize care scheduling.
+
+run_euthanasia_report(report_month, report_year) – Provides detailed monthly and yearly euthanasia statistics.
+
+This codebase aims to support data-driven decision-making at the Toronto Humane Society by providing timely, accurate, and structured reports for animal health management.
