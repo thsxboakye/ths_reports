@@ -10,6 +10,7 @@ from datetime import datetime
 
 def adult_extraction(year: int, month: int):
   reference_date=f'{year}-{month:02}-01'
+  print(reference_date)
   
   adult_query= f"""DECLARE @ReportDate DATE = '{reference_date}';
 DECLARE @PrevMonthStart DATE = DATEADD(MONTH, -1, @ReportDate);

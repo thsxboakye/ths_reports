@@ -53,7 +53,7 @@ def combined_df(fetch_fn, start_year: int, end_year: int) -> pd.DataFrame:
         for month in range(1, 13):
             print(year, month)
             # Skip future months of the current year
-            if year == current_year and month >= current_month:
+            if year == current_year and month > current_month:
                 break
 
             # Handle December report (when current_month == January)
